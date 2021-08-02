@@ -11,4 +11,4 @@ A Chrome extension to check etherscan.io gas fees every 6 seconds.
 5. The extension will be installed now.
 
 
-developed with ❤️ by ("https://www.uzunu.com" uzunu)
+developed with ❤️ by [uzunu](https://www.uzunu.com)
