@@ -1,4 +1,5 @@
-# Gas Fees Now! gas_fee_checker_chrome_extension
+# Gas Fees Now! 
+A gas fee checker chrome extension.
 
 A Chrome extension to check etherscan.io gas fees every 6 seconds.
 
