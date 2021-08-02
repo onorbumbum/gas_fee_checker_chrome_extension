@@ -9,3 +9,6 @@ A Chrome extension to check etherscan.io gas fees every 6 seconds.
 3. Enable developer mode.
 4. Click on Load Unpacked and select your Unzip folder. Note: You need to select the folder in which the manifest file exists.
 5. The extension will be installed now.
+
+
+developed with ❤️ by ("https://www.uzunu.com" uzunu)
