@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Gas Fees Now</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+</head>
+
+<body class="container">
+    <style>
+body {
+  min-width: 800px; /* your desired width */
+  max-width: 100%;
+  position: relative;
+  vertical-align:middle;
+}
+</style>
+<div class="text-center">
+    <h3 class="">Gas Fees Now! <span style="font-size:0.6em;">(refreshes every 6 seconds)</span></h3>
+  </div>
+
+    <form class="form-data" autocomplete="on">
+
+        <div class="text-center">
+            <button type="button" class="btn btn-primary search-btn">Check Prices</button>
+            <div class="loading">loading...</div>
+          </div>
+      
+    </form>
+
+    <div class="result">
+        <div class="errors"></div>
+        <div class="data"></div>
+
+        <div class="row text-center mb-3">
+            <div class="col-md-4 mb-1 mb-md-0">
+                <div class="card h-100 p-3 shadow-none" id="divLow">
+                    <h3 class="h6 mb-0">
+                        <b>Low</b>
+                    </h3>
+                    <div id="divLowPrice">
+                        <div class="h4 text-success mb-1"><span class="spanLowPrice">-</span> gwei</div>
+                       
+                    </div>
+                    <div id="divLowSnapshot" class="d-none">
+                        <div class="h4 text-success mb-1"><span id="spanLowPriceSnapshot"><span
+                                    id="ContentPlaceHolder1_ltGasPriceSnapshot"></span></span> gwei</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-1 mb-md-0">
+                <div class="card h-100 p-3 shadow-none" id="divAvg">
+                    <h3 class="h6 mb-0"><b>Average</b></h3>
+                    <div id="divAvgPrice">
+                        <span class="h4 text-primary mb-1"><span class="spanAvgPrice"></span> gwei</span>
+                     
+                    </div>
+                    <div id="divAvgPriceSnapshot" class="d-none">
+                        <span class="h4 text-primary mb-1"><span id="spanAvgPriceSnapshot"></span> gwei</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 p-3 shadow-none" id="divHigh">
+                    <h3 class="h6 mb-0"><b>High</b></h3>
+                    <div id="divHighPrice">
+                        <span class="h3 mb-0">
+                            <font color="brown"><span class="spanHighPrice"></span> gwei</font>
+                        </span>
+  
+                    </div>
+                    <div id="divHighPriceSnapshot" class="d-none">
+                        <span class="h3 mb-0">
+                            <font color="brown"><span id="spanHighPriceSnapshot"></span> gwei</font>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
