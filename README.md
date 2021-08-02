@@ -1,3 +1,6 @@
+![logo](http://url/to/img.png)
+![logo](https://github.com/onorbumbum/gas_fee_checker_chrome_extension/blob/main/images/logo-256.png?raw=true)
+
 # Gas Fees Now! 
 A Chrome extension to check etherscan.io gas fees every 6 seconds.
 
